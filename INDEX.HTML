@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenido a Dietética Verde Bendito</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#resena">Reseñas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>Descubre la esencia de la salud y el bienestar en nuestra tienda dedicada a ofrecer variedad
+                de productos y atención personalizada.</p>
+            <img src="logo.png" alt="Imagen de ejemplo">
+        </section>
+
+        <section id="productos">
+            <h2>Productos</h2>
+            <div class="productos-container">
+                <div class="card">
+                    <img src="https://acdn.mitiendanube.com/stores/071/020/products/magnesio_fondoblanco-1971eed81ed64d87b517103332916613-1024-1024.webp" alt="CITRATO DE MAGNESIO">
+                    <h3>Citrato De Magnesio</h3>
+                    <p>Contiene 50 cápsulas Natural 100%. Apto Végano. S/tacc</p>
+                </div>
+                <div class="card">
+                    <img src="https://acdn.mitiendanube.com/stores/071/020/products/potasio1-7c0862a6b82b8fc3b216261897733733-1024-1024.webp" alt="POTASIO">
+                    <h3>Potasio</h3>
+                    <p>Contien 50 cápsulas 100% Natural puro y concentrado. Apto Végano, S/tacc</p>
+                </div>
+                <div class="card">
+                    <img src="https://acdn.mitiendanube.com/stores/071/020/products/aceite-de-oregano-con-caja_fondoblanco-203fa9c682a4dfbbd017139673681167-1024-1024.webp" alt="ACEITE OREGANO">
+                    <h3>Aceite De Orégano</h3>
+                    <p>Gotas aceite esencial de Orégano Órganico 70% de carvacrol 30cm3 Nat 100% </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="resena">
+            <h2>Reseñas</h2>
+            <div class="resenas-grid">
+                <div class="resena-item">
+                    <h3>Ricardo Rondón</h3>
+                    <p>“Desde que comencé a tomar citrato de magnesio de Natier, he notado una gran mejora en mi energía y en la calidad de mi sueño. Me siento menos estresado y mis músculos están más relajados. ¡Lo recomiendo muchísimo!”.</p>
+                </div>
+                <div class="resena-item">
+                    <h3>Jhosefin Alvarado</h3>
+                    <p>“Este suplemento de potasio ha sido increíble para mi bienestar general. He experimentado menos calambres y mi rendimiento físico ha mejorado considerablemente. Es una excelente opción para quienes buscan mantener sus electrolitos en equilibrio.”</p>
+                </div>
+                <div class="resena-item">
+                    <h3>Elian Chammas</h3>
+                    <p>“El aceite de orégano de Natier es potente y efectivo. Me ha ayudado a mantener mi sistema inmune fuerte, especialmente en épocas de resfriados. Lo uso diluido y siento que es uno de los mejores aceites esenciales que he probado.”</p>
+                </div>
+                <div class="resena-item">
+                    <h3>Migdalia Amaya</h3>
+                    <p>“El aceite de orégano de Natier ha sido una maravilla para mi piel. Lo uso diluido en un aceite portador para aplicarlo en zonas problemáticas, y he notado una mejora en la apariencia de imperfecciones y rojecimientos. Siento que mi piel está más limpia y saludable, ¡una gran adición a mi rutina de cuidado!”</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Ponte en contacto con nosotros mediante el formulario a continuación.</p>
+
+            <!-- Formulario de Contacto -->
+            <form action="https://formspree.io/f/xkgnbqpw" method="POST">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contacto: contacto@mipaginaweb.com</p>
+    </footer>
+
+</body>
+</html>
